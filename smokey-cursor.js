@@ -16,16 +16,6 @@
     SHADING: true,
   };
 
-  const pointer = {
-    texcoordX: 0,
-    texcoordY: 0,
-    prevTexcoordX: 0,
-    prevTexcoordY: 0,
-    deltaX: 0,
-    deltaY: 0,
-    moved: false,
-    color: { r: 0.18, g: 0.2, b: 0.16 },
-  };
   const emitter = {
     texcoordX: 0,
     texcoordY: 0,
@@ -648,22 +638,6 @@
       riseY + motionY + random(-18, 18),
       incenseColor(),
     );
-  };
-
-  const updatePointerMoveData = (x, y) => {
-    const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const posX = x * dpr;
-    const posY = y * dpr;
-    pointer.prevTexcoordX = pointer.texcoordX;
-    pointer.prevTexcoordY = pointer.texcoordY;
-    pointer.texcoordX = posX / canvas.width;
-    pointer.texcoordY = 1 - posY / canvas.height;
-    pointer.deltaX = pointer.texcoordX - pointer.prevTexcoordX;
-    pointer.deltaY = pointer.texcoordY - pointer.prevTexcoordY;
-    if (canvas.width / canvas.height < 1) pointer.deltaX *= canvas.width / canvas.height;
-    if (canvas.width / canvas.height > 1) pointer.deltaY /= canvas.width / canvas.height;
-    pointer.moved = Math.abs(pointer.deltaX) > 0 || Math.abs(pointer.deltaY) > 0;
-    pointer.color = { r: 0.16, g: 0.18, b: 0.145 };
   };
 
   const step = (dt) => {
