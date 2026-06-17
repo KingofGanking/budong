@@ -1,0 +1,172 @@
+[
+  {
+    "page": 1,
+    "index": 1,
+    "name": "IM9.jpg",
+    "path": "assets/pdf/extracted/page-01-image-01.jpg",
+    "bytes": 247841,
+    "width": 1583,
+    "height": 1279,
+    "mode": "RGB"
+  },
+  {
+    "page": 2,
+    "index": 1,
+    "name": "IM37.jpg",
+    "path": "assets/pdf/extracted/page-02-image-01.jpg",
+    "bytes": 32403,
+    "width": 1280,
+    "height": 853,
+    "mode": "RGB"
+  },
+  {
+    "page": 3,
+    "index": 1,
+    "name": "IM50.jpg",
+    "path": "assets/pdf/extracted/page-03-image-01.jpg",
+    "bytes": 107655,
+    "width": 1024,
+    "height": 1460,
+    "mode": "RGB"
+  },
+  {
+    "page": 3,
+    "index": 2,
+    "name": "IM51.jpg",
+    "path": "assets/pdf/extracted/page-03-image-02.jpg",
+    "bytes": 178066,
+    "width": 1100,
+    "height": 891,
+    "mode": "RGB"
+  },
+  {
+    "page": 3,
+    "index": 3,
+    "name": "IM52.jpg",
+    "path": "assets/pdf/extracted/page-03-image-03.jpg",
+    "bytes": 617951,
+    "width": 1500,
+    "height": 2137,
+    "mode": "RGB"
+  },
+  {
+    "page": 3,
+    "index": 4,
+    "name": "IM53.jpg",
+    "path": "assets/pdf/extracted/page-03-image-04.jpg",
+    "bytes": 182907,
+    "width": 800,
+    "height": 1200,
+    "mode": "RGB"
+  },
+  {
+    "page": 4,
+    "index": 1,
+    "name": "IM56.jpg",
+    "path": "assets/pdf/extracted/page-04-image-01.jpg",
+    "bytes": 209285,
+    "width": 1080,
+    "height": 1330,
+    "mode": "RGB"
+  },
+  {
+    "page": 5,
+    "index": 1,
+    "name": "IM59.jpg",
+    "path": "assets/pdf/extracted/page-05-image-01.jpg",
+    "bytes": 199916,
+    "width": 1702,
+    "height": 1276,
+    "mode": "RGB"
+  },
+  {
+    "page": 6,
+    "index": 1,
+    "name": "IM67.jpg",
+    "path": "assets/pdf/extracted/page-06-image-01.jpg",
+    "bytes": 765554,
+    "width": 3213,
+    "height": 5712,
+    "mode": "RGB"
+  },
+  {
+    "page": 7,
+    "index": 1,
+    "name": "IM70.jpg",
+    "path": "assets/pdf/extracted/page-07-image-01.jpg",
+    "bytes": 198311,
+    "width": 2221,
+    "height": 1922,
+    "mode": "RGB"
+  },
+  {
+    "page": 8,
+    "index": 1,
+    "name": "IM73.jpg",
+    "path": "assets/pdf/extracted/page-08-image-01.jpg",
+    "bytes": 615956,
+    "width": 1280,
+    "height": 2575,
+    "mode": "RGB"
+  },
+  {
+    "page": 8,
+    "index": 2,
+    "name": "IM74.jpg",
+    "path": "assets/pdf/extracted/page-08-image-02.jpg",
+    "bytes": 209883,
+    "width": 960,
+    "height": 1810,
+    "mode": "RGB"
+  },
+  {
+    "page": 8,
+    "index": 3,
+    "name": "IM81.jpg",
+    "path": "assets/pdf/extracted/page-08-image-03.jpg",
+    "bytes": 51035,
+    "width": 743,
+    "height": 721,
+    "mode": "RGB"
+  },
+  {
+    "page": 9,
+    "index": 1,
+    "name": "IM84.jpg",
+    "path": "assets/pdf/extracted/page-09-image-01.jpg",
+    "bytes": 97217,
+    "width": 1276,
+    "height": 958,
+    "mode": "RGB"
+  },
+  {
+    "page": 10,
+    "index": 1,
+    "name": "IM87.jpg",
+    "path": "assets/pdf/extracted/page-10-image-01.jpg",
+    "bytes": 1650751,
+    "width": 3568,
+    "height": 3148,
+    "mode": "RGB"
+  },
+  {
+    "page": 11,
+    "index": 1,
+    "name": "IM95.jpg",
+    "path": "assets/pdf/extracted/page-11-image-01.jpg",
+    "bytes": 1009868,
+    "width": 2648,
+    "height": 4200,
+    "mode": "RGB"
+  },
+  {
+    "page": 12,
+    "index": 1,
+    "name": "IM98.jpg",
+    "path": "assets/pdf/extracted/page-12-image-01.jpg",
+    "bytes": 399123,
+    "width": 1707,
+    "height": 1280,
+    "mode": "RGB"
+  }
+]

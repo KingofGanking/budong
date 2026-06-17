@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>不东 | 烧香青烟交互 Demo</title>
+    <link rel="stylesheet" href="./incense-demo.css" />
+  </head>
+  <body>
+    <main class="demo-shell">
+      <section class="stage" aria-label="烧香青烟交互演示">
+        <canvas id="smoke-canvas" aria-hidden="true"></canvas>
+
+        <div class="paper-field" aria-hidden="true">
+          <div class="burn burn-a"></div>
+          <div class="burn burn-b"></div>
+          <div class="burn burn-c"></div>
+        </div>
+
+        <div class="copy">
+          <p>不东艺术中心</p>
+          <h1>香火入纸</h1>
+        </div>
+
+        <div class="incense-wrap" aria-hidden="true">
+          <div class="incense" id="incense-stick">
+            <span class="ember" id="incense-ember"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./incense-demo.js"></script>
+  </body>
+</html>
