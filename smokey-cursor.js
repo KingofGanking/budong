@@ -6,7 +6,7 @@
   const config = {
     SIM_RESOLUTION: 96,
     DYE_RESOLUTION: 720,
-    DENSITY_DISSIPATION: 3.8,
+    DENSITY_DISSIPATION: 3.25,
     VELOCITY_DISSIPATION: 2.2,
     PRESSURE: 0.1,
     PRESSURE_ITERATIONS: 14,
@@ -604,9 +604,9 @@
     emitter.hue = (emitter.hue + random(0.004, 0.012)) % 1;
     const c = HSVtoRGB((emitter.hue + random(-0.02, 0.02) + 1) % 1, 0.92, 1);
     return {
-      r: c.r * 0.16,
-      g: c.g * 0.16,
-      b: c.b * 0.16,
+      r: c.r * 0.2,
+      g: c.g * 0.2,
+      b: c.b * 0.2,
     };
   };
 
